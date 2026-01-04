@@ -1372,11 +1372,21 @@ background: #01020ab8;
 @media (max-width: 1024px) {
   .hero h1 { font-size: 60px; }
   .hero h2 { font-size: 22px; }
+  .about-content {
+    flex: 1;
+    max-width: 760px;
+    margin-top: 55px;
+}
 }
 
 @media (max-width: 768px) {
   .hero h1 { font-size: 48px; }
   .hero h2 { font-size: 20px; }
+  .about-content {
+    flex: 1;
+    max-width: 760px;
+    margin-top: 55px;
+}
 }
 
 @media (max-width: 480px) {
@@ -1384,5 +1394,11 @@ background: #01020ab8;
   .hero h2 { font-size: 16px; }
   section { padding: 4rem 3%; }
   .navbar { padding: 1rem 3%; }
+  .about-content {
+    flex: 1;
+    max-width: 760px;
+    margin-top: 55px;
+}
 
 }
+
