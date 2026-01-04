@@ -1368,11 +1368,6 @@ background: #01020ab8;
   .footer-cv {
     justify-content: center;
   }
-  .about-content {
-    flex: 1;
-    max-width: 760px;
-    margin-top: 55px;
-}
 }
 @media (max-width: 1024px) {
   .hero h1 { font-size: 60px; }
@@ -1404,7 +1399,4 @@ background: #01020ab8;
     max-width: 760px;
     margin-top: 55px;
 }
-
 }
-
-
