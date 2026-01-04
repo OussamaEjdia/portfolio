@@ -9,7 +9,7 @@ ultra.innerHTML = ORIGINAL_NAME.split("").map(c => `<span>${c}</span>`).join("")
 const letterSpans = Array.from(ultra.querySelectorAll("span"));
 
 
-const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&*";
+const chars = "ABCDEFGHI漢字仮名日本語JKLMNOPQRSアイウエオカキクケコサTUVWXあいうえおかきYZ0123456789@#$%&*";
 
 for (let i = 0; i < 3; i++) {
   const s = document.createElement("span");
@@ -129,3 +129,4 @@ setInterval(()=>{
 
 ultra.addEventListener("mouseenter",()=>burst(1.2));
 ultra.addEventListener("click",()=>caretStrike());
+
