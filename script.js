@@ -1,4 +1,4 @@
-// Navbar Slide
+
 const hamburger = document.getElementById("hamburger");
 const nav = document.querySelector(".nav");
 
@@ -25,7 +25,7 @@ hamburger.addEventListener("click", () => {
   }
 });
 
-// Scroll Active Links
+
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".nav a");
 
@@ -40,4 +40,5 @@ window.addEventListener("scroll", () => {
     link.classList.remove("active");
     if(link.getAttribute("href")==="#"+current) link.classList.add("active");
   });
+
 });
